@@ -85,8 +85,8 @@ header p {
 .meme-text {
   font-size: 35px;
   text-transform: uppercase;
-  /* max-width: 500px; */
-  overflow-wrap: break-word;
+  width: 80%;
+  word-break: break-all;
   letter-spacing: 1px;
   text-align: center;
   font-weight: 600;
