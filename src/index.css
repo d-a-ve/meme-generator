@@ -106,3 +106,37 @@ header p {
 .meme-image {
   width: 100%;
 }
+
+@media (max-width: 420px) {
+  .logo {
+    width: 180px;
+  }
+
+  header p {
+    font-size: 17px;
+  }
+
+  .main {
+    width: 80%;
+  }
+
+  .form-fields {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .form-fields input {
+    width: 100%;
+  }
+
+  .get-meme-image-btn {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  header {
+    flex-direction: column;
+    column-gap: 15px;
+  }
+}
