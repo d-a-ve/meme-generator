@@ -85,7 +85,7 @@ header p {
 .meme-text {
   font-size: 35px;
   text-transform: uppercase;
-  max-width: 500px;
+  /* max-width: 500px; */
   overflow-wrap: break-word;
   letter-spacing: 1px;
   text-align: center;
@@ -129,6 +129,9 @@ header p {
     width: 100%;
   }
 
+  .meme-text {
+    font-size: 22px;
+  }
   .get-meme-image-btn {
     font-size: 16px;
   }
